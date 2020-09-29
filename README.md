@@ -21,7 +21,22 @@ sudo apt-get install cassandra
 
 nodetool status
 
-5) ping 172.31.75.221
+5) ping 172.31.75.221 check for ping
 
+6) Change /etc/cassanddra/cassanddra.yaml in 3 ec2 
+
+seed_provider:
+        - seeds: "172.31.65.98,172.31.75.221,172.31.73.97" #all notes
+listen_address: 172.31.65.98 #note in which we are
+rpc_address: 172.31.65.98 note  #in which we are
+
+7) Change /etc/cassanddra/cassanddra-rackdc.properties # in 3 notes
+dc=uk_dc
+rack=rack1
+
+8)sudo service cassandra start # start in 3 notes 
+
+9) nodetool status # And you can see all nodes
+ BUT ... AAAAAAaaaa
 
 
