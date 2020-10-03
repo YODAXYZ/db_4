@@ -3,6 +3,7 @@
 # 1_lesson_hw
 Task 
 https://docs.google.com/document/d/14GUD3L__DR7NozgrD9-I8VDppZIiqeMAgNzkbiUXVK0/edit
+
 Solution
 https://docs.google.com/document/d/1AG1yrFHdWoIzoSCLwGBuTmAa9CufNR2IGxzwNL5N14I/edit
 
